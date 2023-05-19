@@ -23,16 +23,29 @@
 **###Shell-commands**
 
 > pwd = present working directory
+
 > cd bundle/ = go inside the directory
+
 > cd / = get out of the directory
+
 > ls -ltr = view reverse output order by date (if its a directory it shows d, remaining all files)
+
 > touch = create empty file
+
 > vi test = create empty file (go inside file, click i for insert, after writing esc and :wq! for saving file)
+
 > cat test = view contents in file
+
 > rm test = remove file
+
 > mkdir anu = create directory
+
 > rm -r = remove directory
+
 > free = memory of server
+
 > nproc =no. of cpu's
+
 > df -h = disk size
+
 > top = complete info of server (memory,cpu and all)
