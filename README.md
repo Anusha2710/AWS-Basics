@@ -51,3 +51,17 @@
 > df -h = disk size
 
 > top = complete info of server (memory,cpu and all)
+
+-- Lets create a file using shell script now
+
+- create a file 
+> vi my-first-shell-script.sh
+
+- go inside the file
+> #!/bin/bash                 = first line in every file called (shebang)
+                              - here 'bash' is executable
+
+                              - we also use bash, dash, sh,ksh
+                              - some people use 'sh' which redirects to 'bash' by linking concept
+
+> echo" my name is anusha"
