@@ -22,6 +22,8 @@
 
 **###Shell-commands**
 
+> man ls = provides details of any command
+
 > pwd = present working directory
 
 > cd bundle/ = go inside the directory
