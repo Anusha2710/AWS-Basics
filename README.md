@@ -41,9 +41,10 @@
 
 *purpose of Shell Scripting in DevOps:
 
-- we use it for - Infra maintainance
-                - code management (interact with git)
-                - configuration management
+- we use it for = Infra maintainance
+                = code management (interact with git)
+                = configuration management
+
 *Usecase:
 
 - For suppose john is a Devops engineer in Amazon
