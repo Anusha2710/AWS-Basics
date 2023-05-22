@@ -40,10 +40,11 @@
 **###Shell-commands**
 
 > man ls = provides details of any command
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/125ca27e-7ee1-456e-a9eb-02d7ab61ea99)
 
 > pwd = present working directory
 
-> cd bundle/ = go inside the directory
+> cd anu/ = go inside the directory
 
 > cd / = get out of the directory
 
@@ -51,7 +52,7 @@
 
 > touch = create empty file
 
-> vi test = create empty file (go inside file, click i for insert, after writing esc and :wq! for saving file)
+> vi test = create empty file (go inside file, click i for insert, after writing esc and :wq for saving file)
 
 > cat test = view contents in file
 
@@ -62,12 +63,16 @@
 > rm -r = remove directory
 
 > free = memory of server
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/a5aa0234-d368-4b9c-a76e-3ae8a6607c49)
 
 > nproc =no. of cpu's
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/891bc58d-2797-4c47-807d-c1478d936149)
 
 > df -h = disk size
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/3be1a688-e034-47af-a648-3465c1e8c30e)
 
 > top = complete info of server (memory,cpu and all)
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/76b2286f-1e3f-46b3-aca3-eb90c46f4019)
 
 -- Lets create a file using shell script now
 
@@ -82,7 +87,22 @@
                               - some people use 'sh' which redirects to 'bash' by linking concept
 
 > echo" my name is anusha"
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/785ca91e-6d25-4134-8eeb-473acd2aa61d)
 
 -- Lets execute the file now
 >sh my-first-shell-script.sh  =executed
                               o/p: my name is 
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/49562769-a0be-4551-8a9d-0f13e99a1eca)
+
+- we can also execute by using "./" as (./my-first-shell-script.sh)
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/be01afea-e62a-4492-a0f0-bcb969baab74)
+
+- to enable this we need to enable permission
+- using "chmod" (user, group, everyone)
+                (4- read, 2- write, 1- execute)
+                (eg- chmod 444 = we are giving read permission to user,group nd everyone)
+- Now, we need to give all permissions in order to use ./
+> chmod 777     ( which means 4+2+1=7)
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/513fa5ed-bba7-423a-9461-7e5d7c4fa0c5)
+
+
