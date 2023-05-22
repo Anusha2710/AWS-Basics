@@ -39,6 +39,7 @@
 
 **###Shell-commands**
 
+1. man Command
 > man ls = provides details of any command
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/125ca27e-7ee1-456e-a9eb-02d7ab61ea99)
 
@@ -105,4 +106,4 @@
 > chmod 777     ( which means 4+2+1=7)
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/513fa5ed-bba7-423a-9461-7e5d7c4fa0c5)
 
-
+- Now
