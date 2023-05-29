@@ -152,4 +152,24 @@ touch firstfile secondfile
 > chmod 777 sample-shell-script.sh
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/5807ced4-70fd-4ddb-b3c8-3a2cd3c856cd)
 
+17. Shell Script2:
+- Now, lets write a shell script to check the Node Health of our VM.
+> vi node-health.sh
+
+#!/bin/bash
+
+# Author: Anusha
+# Date: 29/May/2023
+# Title: This script executes Node Health of VM
+# Version: v1
+
+set+ #debug mode
+
+df -h #disk size
+
+free -g #memory of server
+
+nproc #no. of cpu's
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/361fabf4-7500-4eae-8fef-5fa3e185faec)
 
