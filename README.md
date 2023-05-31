@@ -170,8 +170,10 @@ Here, awk = prints output in specific column (here we are printing data in 2nd c
        
 19. Shell Script4 (Imp Interview Question):
 - If we use date command, it prints todays date
--![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/2696acfe-0095-4fd2-bb9e-ff129485bc7b)
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/2696acfe-0095-4fd2-bb9e-ff129485bc7b)
 
 - But, if we use date command with echo, it prints only keywords present in echo, but not the actual command
-- ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/20c7341f-0b37-426a-a0c0-dbf08057b81c)
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/20c7341f-0b37-426a-a0c0-dbf08057b81c)
 - Because, date is a system default command, it sends output to stdin, as pipe works only if it passes the info to next command but not stdio i.e: echo
