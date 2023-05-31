@@ -175,12 +175,17 @@ nproc #no. of cpu's
 
 18. Shell Script3:
 - Now, Lets say in Amazon Company a developer has deployed 200 micro services, where each app uses different processes.
-- We need to find the processes running by "amazon" key word 
+1- We need to find the processes running by "amazon" keyword 
 > ps -ef | grep "amazon"
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/9be821ac-1d06-4027-bf91-f90ad2532e12)
 Here,  ps -ef = prints processes in full format
        grep = filter the output with specific keyword
        pipe = get output from first command and send it to second command
+
+2- We need only process ids of "amazon" processes
+> ps -f | grep "amazon" | awk -F" " '{print $2}'
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/f7fd9594-7cdf-4ed8-bef6-2f4163e9d68b)
+Here, awk = prints output in specific column (here we are printing data in 2nd column)
        
 19. Shell Script4 (Imp Interview Question):
 - If we use date command, it prints todays date
