@@ -135,6 +135,7 @@
 16. Shell Script1:
 - Now, lets write a shell script to create a folder, and 2 files inside the folder everytime when script is executed, we'll also change permissions of file.
 > vi sample-shell-script.sh
+
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/1037f673-8d42-45b3-afd8-679ed98bc718)
 
 - lets give permissions now
