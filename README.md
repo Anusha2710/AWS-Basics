@@ -163,7 +163,7 @@ touch firstfile secondfile
 # Title: This script executes Node Health of VM
 # Version: v1
 
-set+ #debug mode
+set-x #debug mode
 
 df -h #disk size
 
@@ -173,3 +173,20 @@ nproc #no. of cpu's
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/361fabf4-7500-4eae-8fef-5fa3e185faec)
 
+18. Shell Script3:
+- Now, Lets say in Amazon Company a developer has deployed 200 micro services, where each app uses different processes.
+- We need to find the processes running by "amazon" key word 
+> ps -ef | grep "amazon"
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/9be821ac-1d06-4027-bf91-f90ad2532e12)
+Here,  ps -ef = prints processes in full format
+       grep = filter the output with specific keyword
+       pipe = get output from first command and send it to second command
+       
+19. Shell Script4 (Imp Interview Question):
+- If we use date command, it prints todays date
+> date
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/2696acfe-0095-4fd2-bb9e-ff129485bc7b)
+
+- But, if we use date command with echo, it prints only keywords present in echo, but not the actual command
+- ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/20c7341f-0b37-426a-a0c0-dbf08057b81c)
+- Because, date is a system default command, it sends output to stdin, as pipe works only if it passes the info to next command but not stdio i.e: echo
