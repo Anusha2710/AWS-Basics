@@ -140,6 +140,7 @@
 
 - lets give permissions now
 > chmod 777 sample-shell-script.sh
+
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/5807ced4-70fd-4ddb-b3c8-3a2cd3c856cd)
 
 17. Shell Script2:
