@@ -156,6 +156,7 @@
 
 18. Shell Script3:
 - Now, Lets say in Amazon Company a developer has deployed 200 micro services, where each app uses different processes.
+
 1- We need to find the processes running by "amazon" keyword 
 > ps -ef | grep "amazon"
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/9be821ac-1d06-4027-bf91-f90ad2532e12)
