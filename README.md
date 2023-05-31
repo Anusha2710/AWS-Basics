@@ -115,12 +115,9 @@
                               - we also use bash, dash, sh,ksh
                               - some people use 'sh' which redirects to 'bash' by linking concept
 
-echo" my name is anusha"
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/785ca91e-6d25-4134-8eeb-473acd2aa61d)
 
--- Lets execute the file now
->sh my-first-shell-script.sh  =executed
-                              o/p: my name is 
+-- Lets execute the file now 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/49562769-a0be-4551-8a9d-0f13e99a1eca)
 
 - we can also execute by using "./" as (./my-first-shell-script.sh)
