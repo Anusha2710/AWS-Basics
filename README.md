@@ -148,6 +148,8 @@
 > vi node-health.sh
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/cd544a91-e5f0-4fc0-a61e-8787c1cd1874)
+
+- Here, set -x = command is used to debug bash script where every executed statement is printed to the shell for debugging or troubleshooting
 - Lets execute the script
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/361fabf4-7500-4eae-8fef-5fa3e185faec)
