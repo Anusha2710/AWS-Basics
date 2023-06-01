@@ -168,6 +168,9 @@
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/2bbc1cb1-6fe1-412d-aff1-740e6aa9c3d5)
 
 - Then set -x does work, instead it executes the script without aborting the failed command i.e; it only considering last statements in script with pipe, it's just ignoring first statement
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/4be3e305-a09d-47d2-8d3d-34d059dcd2ff)
+
 - To overcome with we are going to use "set -o pipeline" command
 
 3- set -o pipeline
@@ -177,9 +180,6 @@
 - Lets execute it aborts and throws error now.
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/4b0f7c88-272b-4a0d-b78a-da2f9c4da470)
-
-
-![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/4be3e305-a09d-47d2-8d3d-34d059dcd2ff)
 
 18. Shell Script3:
 - Now, Lets say in Amazon Company a developer has deployed 200 micro services, where each app uses different processes.
