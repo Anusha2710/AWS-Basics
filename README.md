@@ -147,12 +147,39 @@
 - Now, lets write a shell script to check the Node Health of our VM.
 > vi node-health.sh
 
+1- set -x = command is used to debug bash script where every executed statement is printed to the shell for debugging.
+
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/cd544a91-e5f0-4fc0-a61e-8787c1cd1874)
 
-- Here, set -x = command is used to debug bash script where every executed statement is printed to the shell for debugging or troubleshooting
 - Lets execute the script
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/361fabf4-7500-4eae-8fef-5fa3e185faec)
+
+2- set -e = aborts the execution of a command and returns the exit status code of the command that failed.
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/3f5382ed-8632-4849-88dc-958ce902fedb)
+
+- Lets execute the script
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/d953f99a-5aaa-4c14-88a1-31db74cf9262)
+
+- But, when we add pipe statements
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/2bbc1cb1-6fe1-412d-aff1-740e6aa9c3d5)
+
+- Then set -x does work, instead it executes the script without aborting the failed command i.e; it only considering last statements in script with pipe, it's just ignoring first statement
+- To overcome with we are going to use "set -o pipeline" command
+
+3- set -o pipeline
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/e3256f23-d82f-468a-89dd-02ee1905b3d7)
+
+- Lets execute it aborts and throws error now.
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/4b0f7c88-272b-4a0d-b78a-da2f9c4da470)
+
+
+![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/4be3e305-a09d-47d2-8d3d-34d059dcd2ff)
 
 18. Shell Script3:
 - Now, Lets say in Amazon Company a developer has deployed 200 micro services, where each app uses different processes.
