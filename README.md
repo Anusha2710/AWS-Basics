@@ -155,7 +155,7 @@
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/361fabf4-7500-4eae-8fef-5fa3e185faec)
 
-2 - set -e = aborts the execution of a command and returns the exit status code of the command that failed.
+2- set -e = aborts the execution of a command and returns the exit status code of the command that failed.
 
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/3f5382ed-8632-4849-88dc-958ce902fedb)
 
