@@ -202,8 +202,6 @@ Here,  ps -ef = prints processes in full format
 
 Here, awk = prints output in specific column (here we are printing data in 2nd column)
        
-Yes
-
 19. Shell Script4 (Imp Interview Question):
 - If we use date command, it prints todays date
 
