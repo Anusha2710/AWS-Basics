@@ -1,5 +1,7 @@
 # AWS-Basics
 
+AWS-Console
+
 **###AWS-CLI**
 
 -- Without creating instances we can perform actions on aws console by using AWS CLI
