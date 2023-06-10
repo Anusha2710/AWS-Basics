@@ -56,7 +56,7 @@ AWS-Console
 - If any issue happens he will just execute shell script automatically in local machine and finds out he problem
 - And if anything goes wrong it automatically sends mail that among 10,000 VMs (10 are suspicious, 5 less memory, 5 less cpu)
 
-- How to get inside root user = sudo su
+- How to get inside root user = sudo su -
 - How to come otside root user = ctrl + d
 
 1. man Command
