@@ -39,3 +39,5 @@ AWS-Console
 - now the file is created
 - In this way we can create anything by using AWS CLI
 
+access key: AKIAYS2NTYZN2VII6D5K
+secret access key: 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
