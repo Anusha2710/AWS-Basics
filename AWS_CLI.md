@@ -38,6 +38,3 @@ AWS-Console
 ![image](https://github.com/Anusha2710/AWS-Basics/assets/47424821/e8dc7f1e-7b66-4fe9-9542-6ad8105d3c38)
 - now the file is created
 - In this way we can create anything by using AWS CLI
-
-access key: AKIAYS2NTYZN2VII6D5K
-secret access key: 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
